@@ -1,0 +1,53 @@
+:root {
+    --basic-color: #212121;
+    --pale-color: #afb1b8;
+    --accent-color: #2196f3;
+    --main-color: #000000;
+    --white-color: #ffffff;
+    --paragr-gris-color: #757575;
+}
+
+body {
+    color: var(--basic-color);
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 10px;
+    /* добален для меня для наглядности  */
+}
+
+.list {
+    list-style: none;
+
+    padding-left: 0px;
+}
+
+/* logo */
+.logo {
+    color: var(--accent-color);
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo-part {
+    color: var(--main-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+link {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
